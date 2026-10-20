@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aurora | Administrativo</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar"><a class="logo" href="index.html">Café <span>Aurora</span></a>
+            <div class="menu"><a class="ativo" href="index.html">Início</a><a href="sobre.html">Sobre</a><a
+                    href="produtos.html">Produtos</a><a href="pedidos.html">Pedidos</a><a class="login-link"
+                    href="login.html">Entrar</a></div>
+        </nav>
+    </header>
+    <section class="page-title">
+        <div class="container"><span class="section-tag">Área restrita</span>
+            <h1>Administrativo</h1>
+            <p>Controle de pedidos e atendimento da cafeteria.</p>
+        </div>
+    </section>
+    <main class="section">
+        <div class="container">
+            <div class="admin-top">
+                <div>
+                    <h2 style="font-family:'Playfair Display',serif;color:var(--marrom);font-size:30px">Painel de
+                        pedidos</h2>
+                    <p style="color:#75645b">Gerente conectado • Hoje</p>
+                </div><a class="btn" href="index.html">Voltar ao site</a>
+            </div>
+            <div class="admin-tabs"><a href="#atendimento">Em atendimento</a><a href="#finalizados">Finalizados</a>
+            </div>
+            <div class="admin-grid" id="atendimento">
+                <article class="admin-order">
+                    <header><strong>Pedido #1042</strong><span class="status">Em atendimento</span></header>
+                    <p><strong>Cliente:</strong> Ana Souza</p>
+                    <p><strong>Atendimento:</strong> Mesa 8</p>
+                    <ul>
+                        <li>1x Cappuccino</li>
+                        <li>1x Croissant</li>
+                    </ul><a class="btn" href="#">Finalizar pedido</a>
+                </article>
+                <article class="admin-order">
+                    <header><strong>Pedido #1043</strong><span class="status">Em atendimento</span></header>
+                    <p><strong>Cliente:</strong> Carlos Lima</p>
+                    <p><strong>Atendimento:</strong> Delivery</p>
+                    <ul>
+                        <li>2x Café Expresso</li>
+                        <li>1x Sanduíche Natural</li>
+                    </ul><a class="btn" href="#">Finalizar pedido</a>
+                </article>
+                <article class="admin-order">
+                    <header><strong>Pedido #1044</strong><span class="status">Em atendimento</span></header>
+                    <p><strong>Cliente:</strong> Julia Mendes</p>
+                    <p><strong>Atendimento:</strong> Balcão</p>
+                    <ul>
+                        <li>1x Cold Brew</li>
+                        <li>1x Donut</li>
+                    </ul><a class="btn" href="#">Finalizar pedido</a>
+                </article>
+                <article class="admin-order" id="finalizados">
+                    <header><strong>Pedido #1040</strong><span class="status">Finalizado</span></header>
+                    <p><strong>Cliente:</strong> Pedro Alves</p>
+                    <p><strong>Atendimento:</strong> Mesa 3</p>
+                    <ul>
+                        <li>1x Latte</li>
+                        <li>1x Bolo de chocolate</li>
+                    </ul><a class="btn btn-sec" href="#">Ver pedido</a>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">Área administrativa • Café Aurora • © 2026</div>
+    </footer>
+</body>
+
+</html>
